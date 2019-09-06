@@ -6,6 +6,9 @@ class AppSpeedXrayTestbed(Resource):
     def post(self):
         pass
 
+    def get(self):
+        pass
+
 
 def main():
     app = Flask(__name__)
