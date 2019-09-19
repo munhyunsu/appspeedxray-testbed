@@ -4,11 +4,11 @@ from fkask_restful import Resource, Api, reqparse
 
 class Registration(Resource):
     def post(self):
-        # resist testbed client
+        # registrate testbed client
         pass
 
     def get(self):
         # get information about testbed client
-        # resisted or not
+        # registed or not
         pass
         
