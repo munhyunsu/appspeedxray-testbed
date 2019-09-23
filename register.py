@@ -4,11 +4,11 @@ from fkask_restful import Resource, Api, reqparse
 
 class Registration(Resource):
     def post(self):
-        # registrate testbed client
+        headers = request.headers
+        data = request.get_json()
         pass
 
     def get(self):
-        # get information about testbed client
-        # registed or not
+        identify = request.args.get('id')
         pass
         
